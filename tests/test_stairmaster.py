@@ -1,4 +1,4 @@
-from stairmaster import climb_stairs
+from activity.stairmaster import climb_stairs
 
 def test_1_step():
     assert climb_stairs(1) == 1
